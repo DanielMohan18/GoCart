@@ -84,7 +84,7 @@ const Navbar = ({handlerPopup}) => {
       </div>
 
       <div className='flex justify-center'>
-         <ul className='sm:flex hidden items-center justify-between container gap-4'>
+         <ul className=' hidden items-center justify-between container gap-4 sm:flex'>
             {
                 Menu.map((data)=>(
                     <li key={data.id} >
@@ -105,7 +105,7 @@ const Navbar = ({handlerPopup}) => {
                     <ul>
                         {DropdownLinks.map((data)=>(
                             <li key={data.id}>
-                              <a className='inline-block w-full py-2  hover:bg-primary/20 rounded-md hover:text-primary duration-200 ' href={data.link}>{data.name}</a>
+                              <a className='block w-full py-2  hover:bg-primary/20 rounded-md hover:text-primary duration-200 ' href={data.link}>{data.name}</a>
                             </li>
                         ))}
                     </ul>

@@ -19,7 +19,7 @@ const Banner = () => {
           </div>
 
           {/* text details section */}
-          <div className="flex flex-col justify-center gap-6 sm:pt-0">
+          <div className="flex flex-col justify-center gap-6 pt-4 pl-10 sm:pl-0 sm:pt-0">
             <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
               Winter Sale upto 50% Off
             </h1>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React  from 'react'
 import Img1 from "../../assets/shirt.png";
 import Img2 from "../../assets/shirt2.png";
 import Img3 from "../../assets/shirt3.png";
@@ -26,7 +26,7 @@ const ProductsData = [
         "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
   ];
-  const TopProducts = ({ handlerPopup }) => {
+  const TopProducts =({ handlerPopup })=>{
     return (
       <div className='dark:text-white'>
         <div className="container ">

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import Img1 from '../../assets/women.png'
 import Img2 from '../../assets/women3.jpg'
 import Img3 from '../../assets/women2.jpeg'
